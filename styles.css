@@ -1,0 +1,122 @@
+/* ================= BASE ================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f5f7fa;
+    color: #333;
+}
+
+/* ================= NAVIGATION ================= */
+.header {
+    background-color: #912A4B;
+    padding: 15px 0;
+}
+
+.navbar {
+    width: 90%;
+    margin: auto;
+}
+
+.nav-list {
+    list-style: none;
+    text-align: center;
+}
+
+.nav-list li {
+    display: inline; /* 🔹 Navigation inline */
+    margin: 0 15px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+
+.nav-list a:hover {
+    color: #38bdf8;
+}
+
+/* ================= SECTIONS ================= */
+.section {
+    width: 90%;
+    margin: 40px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+}
+
+.accueil {
+    text-align: center;
+}
+
+/* ================= TITRES ================= */
+h1, h2 {
+    margin-bottom: 15px;
+    color: #1e293b;
+}
+
+/* ================= LISTES ================= */
+ul {
+    margin-left: 20px;
+}
+
+/* ================= TABLE ================= */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+th {
+    background-color: #1e293b;
+    color: white;
+}
+
+/* ================= FORMULAIRE ================= */
+form {
+    max-width: 1000px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* ================= BOUTON ================= */
+.btn {
+    background-color: #1E93B8;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #2DC9A9;
+}
+
+/* ================= FOOTER ================= */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #912A4B;
+    color: white;
+    margin-top: 40px;
+}
